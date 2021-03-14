@@ -5,8 +5,16 @@ name = "pypi"
 
 [packages]
 flask = "*"
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+mistune = "*"
+flask-cors = "*"
+flask-login = "*"
+flask-jwt-extended = "*"
 
 [dev-packages]
+python-dotenv = "*"
 
 [requires]
 python_version = "3.8"

@@ -1,0 +1,2 @@
+curl -X POST http://localhost:5000/log_in -H 'Content-Type: application/json' -d '{"username": "ucaly", "password":"pw"}' 
+
